@@ -423,7 +423,6 @@ void arrangeUser() {
     showUsers();
 }
 
-// doc du lieu tu file khi bat dau chay chuong trinh
 void loadUsers() {
     FILE *file = fopen("user.txt", "r");
     if (file == NULL) {
